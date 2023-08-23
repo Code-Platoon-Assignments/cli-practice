@@ -29,9 +29,9 @@
 
 ## Assignment:
 
-1. Complete the first 2 sections of this interactive Codecademy course to get a great handle on navigating and manipulating directories and files [command line course](https://www.codecademy.com/en/courses/learn-the-command-line). Note: you will need to set up a Codecademy account for this but this will be simple if you just link it to your Github account (the octo-cat icon when prompted to sign up).
+1. Complete the first 2 sections of this interactive course to get a great handle on navigating and manipulating directories and files - [Terminal Tutor](https://www.terminaltutor.com/)
 
-2. Complete the below exercise locally on your own computer.
+3. Complete the below exercise locally on your own computer.
 
 ## Exercise:
 
@@ -41,7 +41,7 @@ In this exercise you will practice creating files and directories and deleting t
 1. Create a new directory in your home directory and  name it `test`
 2. Navigate into the `test` directory
 3. Create a new file called `test.txt` using the `touch` command
-4. Open this file with VSCode (from the command line) and give it some content, and then save
-5. From within the cli view the contents of the file you just created (`head`, `tail`, `less`)
-4. Navigate back out of the `test` directory
-5. Delete the `test` directory and all files within it
+4. Open this file with VSCode (from the command line using `code test.txt`) give it some content, and then save
+5. From within the cli, view the contents of the file you just created (`head`, `tail`, `less`)
+4. Navigate one level up from the `test` directory to it's parent directory
+5. Delete the `test` directory (it contains files now, so you might need to add an option to `rm`!)
