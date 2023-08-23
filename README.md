@@ -29,9 +29,19 @@
 
 ## Assignment:
 
-1. Complete the first 2 sections of this interactive course to get a great handle on navigating and manipulating directories and files - [Terminal Tutor](https://www.terminaltutor.com/)
+1. Complete this interactive course to get a great handle on the essentials of using a command-line interface and navigating directories - [Terminal Tutor](https://www.terminaltutor.com/)
 
-3. Complete the below exercise locally on your own computer.
+2. Complete the below exercise locally on your own computer.
+
+> Unlike Terminal Tutor, your own local terminal can autocomplete file names based on the directory you are in. For example, if you had a directory structure like:
+> ```
+> home
+> |- essays
+> |- documents
+> |- doodles
+> |- code
+>```
+> and you were currently at home (`~`) all you would need to type is `e` and then hit tab to autocomplete. If you typed `d` and hi tab it would list the two possible matching options (`documents`, `doodles`) prompting you to type enough for it to know for sure what you mean when you hit tab. Tab autocomplete is a powerful feature when navigating a filesystem through the terminal as it let's you know what is available at any given level and allows you to not have write out entire file/folder names completely. Try to take advantage of it!
 
 ## Exercise:
 
